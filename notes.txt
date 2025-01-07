@@ -5,3 +5,13 @@ style/organize forum display & create page
 add profile options
 
 forum + stone_tablet display side by side ?
+
+
+
+composer install 
+
+php artisan native:install
+
+npm install -D tailwindcss
+
+php artisan native:serve

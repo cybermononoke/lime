@@ -38,7 +38,7 @@
     </div>
 
     <div>
-        <button type="submit" class="badge badge--solid badge--md w-full">Register</button>
+        <button class="badge badge--surface w-full p-4">Register</button>
     </div>
 
     @if ($errors->any())

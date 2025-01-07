@@ -29,7 +29,7 @@
                     @enderror
                 </div>
                 <div>
-                    <button type="submit" class="badge badge--solid badge--md w-full">Login</button>
+                    <button class="badge badge--surface w-full p-4">Login</button>
                 </div>
             </form>
 
@@ -38,7 +38,7 @@
                     New here?
                 </h1>
                 <a href="{{ route('register') }}">
-                    <button class="badge badge--solid badge--lg w-1/3">Register</button>
+                    <button class="badge badge--surface w-full p-4">Register</button>
                 </a>
             </div>
         </div>
