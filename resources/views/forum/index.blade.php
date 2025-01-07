@@ -12,7 +12,7 @@
             <form action="{{ route('forum.store') }}" method="POST" class="space-y-4">
                 @csrf
                 <input type="text" name="title" placeholder="New Thread Title" class="input input--solid w-full" required>
-                <button type="submit" class="badge badge--solid badge--md w-full">Create Thread</button>
+                <button class="badge badge--surface w-full p-4">Create Thread</button>
             </form>
 
             @foreach ($threads as $thread)

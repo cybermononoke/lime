@@ -129,25 +129,23 @@
         <div class="container mx-auto flex items-center justify-between">
             <div class="space-x-4">
                 <a href="{{ route('home') }}">
-                    <button class="badge badge--solid badge--lg w-1/3">Home</button>
+                    <button class="badge badge--surface w-full p-4">Home</button>
                 </a>
 
                 <a href="{{ route('forum.index') }}">
-                    <button class="badge badge--solid badge--lg w-1/3">Forums</button>
+                    <button class="badge badge--surface w-full p-4">Forums</button>
                 </a>
 
-                @guest
+
                 <a href="{{ route('login') }}">
-                    <button class="badge badge--solid badge--lg w-1/3">Login</button>
+                    <button class="badge badge--surface w-full p-4">Login</button>
                 </a>
-                @endguest
-
-                @auth
+                <!-- 
                 <form action="{{ route('logout') }}" method="POST">
                     @csrf
                     <button type="submit" class="badge badge--solid badge--lg w-1/3">Logout</button>
-                </form>
-                @endauth
+                </form> -->
+
             </div>
 
         </div>

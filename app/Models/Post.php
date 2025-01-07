@@ -9,10 +9,15 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['content'];
+    protected $fillable = ['content', 'user_id'];
 
     public function thread()
     {
         return $this->belongsTo(Thread::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
     }
 }

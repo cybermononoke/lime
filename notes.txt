@@ -4,8 +4,4 @@ style/organize forum display & create page
 
 add profile options
 
-add created at/posted by
-
-NO DELETE- every word you write is permanent 
-
-forum + stone_tablet display side by side
+forum + stone_tablet display side by side ?

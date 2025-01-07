@@ -1,8 +1,10 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use App\Models\Thread;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ThreadController extends Controller
 {
@@ -19,6 +21,7 @@ class ThreadController extends Controller
 
         $thread->posts()->create([
             'content' => $request->content,
+            'user_id' => Auth::id()
         ]);
 
         return redirect()->route('forum.show', $thread->id);
